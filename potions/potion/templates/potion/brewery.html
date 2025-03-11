@@ -1,0 +1,14 @@
+{% extends 'potion/base.html' %}
+
+
+{% block content %}
+
+<h3>Welcome to the landing page!!!</h3>
+{% for potion in potion_list %}
+<p1>Potion: {{potion.name}} </p1>
+<p1>Description: {{potion.description}} </p1>
+
+
+
+{% endfor %}
+{% endblock %}
